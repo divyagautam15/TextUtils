@@ -1,0 +1,46 @@
+  .navbar{
+    width: 100%;
+    float: left;
+    height: 100px;
+    /* background-color: black; */
+  }
+  .logo{
+    width: 40%;
+    float: left;
+    color: wheat;
+    padding-left: 16px;
+    font-size: 39px;
+    margin-bottom: 62px;
+  }
+  .navbar ul {
+    width: 30%;
+    float: right;
+  }
+  .list{
+    float: left;
+    list-style-type: none;
+    margin-right: 14px;
+    padding: 20px 2px;
+    /* color: white; */
+  }
+  .container{
+    /* margin-top: 30px; */
+  }
+  .switchDiv {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 30%;
+    width: 40%;
+    display: block;
+    height: 15px;
+}
+.switchMode {
+  background-color: white;
+  border: 1px solid white;
+  height: 10px;
+  width: 30%;
+  border-radius: 50%;
+  /* float: right; */
+  cursor: pointer;
+  margin: 1px 2px 0 0;
+}

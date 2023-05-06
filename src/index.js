@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root')  // lines means-> put app.js file (in strict mode) in div whose id is root (index.js)
 );
 
 // If you want to start measuring performance in your app, pass a function

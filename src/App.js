@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import About from './components/About';
+import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Routes,
+// } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <Router> */}
+      <div className="container">  
+        <Navbar list="Career"/>
+        <TextForm heading="Enter the information"/>
+        {/* <Routes> */}
+          {/* we use exact keyword , so that browser do the exact matching
+          /user --- component 1
+          /user/home --- component 2  */}
+          {/* <Route exact path="/about" element={<About/>}/>
+          <Route exact path="/" element={<TextForm heading="Enter the information"/>}/> */}
+        {/* </Routes> */}
+      </div>
+    {/* </Router> */}
+    </>
   );
 }
 

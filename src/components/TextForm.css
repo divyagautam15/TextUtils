@@ -1,0 +1,40 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.textArea{
+    width: 100%;
+}
+.heading{width: 100%;}
+.container1, .container2{
+    width: 50%;
+    margin: 4px auto 0 auto;
+}
+.frmLabel{
+    width: 100%;
+    display: block;
+}
+.formTextarea{
+    width: 100%;
+    margin-top: 10px;
+}
+.abc {
+    background-color: blue ;
+    color: white ;
+    border: 1px solid blue ;
+    border-radius: 4px;
+    width: 20% ;
+    padding: 8px 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.abc2{
+    background-color: blue ;
+    color: white ;
+    border: 1px solid blue ;
+    border-radius: 4px;
+    width: 20% ;
+    padding: 8px 0;
+    cursor: pointer;
+    margin: 10px 0 0 10px;
+}
